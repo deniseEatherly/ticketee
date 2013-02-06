@@ -13,7 +13,8 @@ class ProjectsController < ApplicationController
     if @project.save
        redirect_to @project, :notice  => "Project has been created."
     else
-
+       flash[:alert] = "Project can not be created."
+      render :action => 'new'
     end
   end
 
