@@ -4,6 +4,11 @@ class ProjectsController < ApplicationController
     @projects = Project.all
   end
 
+
+  def show
+    @project = Project.find(params[:id])
+  end
+
   def new
      @project = Project.new
   end
@@ -18,7 +23,19 @@ class ProjectsController < ApplicationController
     end
   end
 
-  def show
+  def edit
      @project = Project.find(params[:id])
   end
+
+  def update
+    @project = Project.find(params[:id])
+    if @project.update_attributes(params[:project])
+    redirect_to @project, :notice => "Project has been updated."
+    else
+      flash[:alert] = "Project has not been updated."
+      render :action => "edit"
+    end
+
+  end
+
 end
