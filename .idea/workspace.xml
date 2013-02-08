@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347cfab3-52a1-4375-8be4-2a88ffb55169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/editing_projects_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/new.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -17,12 +14,13 @@
     <file path="/Gemfile" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360258936505" ignored="false" />
     <file path="/project_factory.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360259096437" ignored="false" />
     <file path="/index.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360279276368" ignored="false" />
-    <file path="/projects_controller.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281082070" ignored="false" />
+    <file path="/projects_controller.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281770563" ignored="false" />
     <file path="/editing_projects_spec" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280140417" ignored="false" />
     <file path="/editing_projects_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281006046" ignored="false" />
-    <file path="/show.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280360448" ignored="false" />
+    <file path="/show.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281611721" ignored="false" />
     <file path="/new.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280738666" ignored="false" />
     <file path="/edit.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280786776" ignored="false" />
+    <file path="/deleting_projects_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281489857" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +39,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.45388788">
       <split-first>
         <leaf>
-          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gemfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="40" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="project_factory.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/support/factories/project_factory.rb">
               <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +60,7 @@
           <file leaf-file-name="projects_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="29" selection-start="781" selection-end="781" vertical-scroll-proportion="0.52238804">
+                <state line="43" column="68" selection-start="943" selection-end="943" vertical-scroll-proportion="0.6725756">
                   <folding />
                 </state>
               </provider>
@@ -107,7 +96,7 @@
           <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="23" selection-start="94" selection-end="94" vertical-scroll-proportion="-2.5">
+                <state line="8" column="56" selection-start="285" selection-end="285" vertical-scroll-proportion="-5.0">
                   <folding />
                 </state>
               </provider>
@@ -144,10 +133,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="editing_projects_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="editing_projects_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/integration/editing_projects_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="45" selection-start="554" selection-end="554" vertical-scroll-proportion="0.29182878">
+                <state line="23" column="52" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="deleting_projects_spec.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="45" selection-start="329" selection-end="329" vertical-scroll-proportion="0.16050583">
                   <folding />
                 </state>
               </provider>
@@ -182,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/spec/integration/creating_projects_spec.rb" />
         <option value="$PROJECT_DIR$/app/helpers/projects_helper.rb" />
@@ -192,11 +189,12 @@
         <option value="$PROJECT_DIR$/spec/support/factories/project_factory.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/spec/integration/editing_projects_spec" />
-        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/edit.html.erb" />
         <option value="$PROJECT_DIR$/spec/integration/editing_projects_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       </list>
     </option>
@@ -719,7 +717,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17269076" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17269076" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -791,13 +789,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/projects_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
@@ -854,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="94" selection-end="94" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/integration/viewing_projects_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="81" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
@@ -891,14 +875,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/integration/editing_projects_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="554" selection-end="554" vertical-scroll-proportion="0.29182878">
+        <state line="23" column="52" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="329" selection-end="329" vertical-scroll-proportion="0.16050583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="56" selection-start="285" selection-end="285" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="29" selection-start="781" selection-end="781" vertical-scroll-proportion="0.52238804">
+        <state line="43" column="68" selection-start="943" selection-end="943" vertical-scroll-proportion="0.6725756">
           <folding />
         </state>
       </provider>
