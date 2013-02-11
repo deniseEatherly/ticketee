@@ -23,6 +23,6 @@ test:
 production:
   adapter: mysql2
   database: ticketee_production
-  username: ticketee_user
+  username: prod_user
   password: harder_pwd
   encoding: utf8
