@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347cfab3-52a1-4375-8be4-2a88ffb55169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tickets/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/tickets_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/ticket_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tickets/show.html.erb" afterPath="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -21,7 +17,7 @@
     <file path="/projects_controller.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360621595900" ignored="false" />
     <file path="/editing_projects_spec" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280140417" ignored="false" />
     <file path="/editing_projects_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281006046" ignored="false" />
-    <file path="/show.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360703497694" ignored="false" />
+    <file path="/show.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360704171021" ignored="false" />
     <file path="/new.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360280738666" ignored="false" />
     <file path="/edit.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360703598008" ignored="false" />
     <file path="/deleting_projects_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360281489857" ignored="false" />
@@ -31,7 +27,7 @@
     <file path="/projects_controller_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360621317262" ignored="false" />
     <file path="/creating_tickets_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360626902923" ignored="false" />
     <file path="/routes.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360625106370" ignored="false" />
-    <file path="/tickets_controller.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360703724481" ignored="false" />
+    <file path="/tickets_controller.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360704371375" ignored="false" />
     <file path="/project.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360702877458" ignored="false" />
     <file path="/new_html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360625623110" ignored="false" />
     <file path="/_form.html.erb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360625809079" ignored="false" />
@@ -41,6 +37,7 @@
     <file path="$PROJECT_DIR$/log/development.log" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360702802911" ignored="false" />
     <file path="$PROJECT_DIR$/log/test.log" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360702802912" ignored="false" />
     <file path="/editing_tickets_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360703311606" ignored="false" />
+    <file path="/deleting_tickets_spec.rb" changelist="347cfab3-52a1-4375-8be4-2a88ffb55169" time="1360704389222" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,16 +84,25 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="55" selection-start="105" selection-end="105" vertical-scroll-proportion="-1.25">
+            <state line="5" column="51" selection-start="295" selection-end="295" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tickets_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="29" selection-start="769" selection-end="769" vertical-scroll-proportion="0.48151752">
+            <state line="14" column="91" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleting_tickets_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="36" selection-start="338" selection-end="338" vertical-scroll-proportion="0.20428015">
               <folding />
             </state>
           </provider>
@@ -129,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -142,9 +147,10 @@
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tickets/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb" />
       </list>
     </option>
   </component>
@@ -750,6 +756,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -1038,13 +1064,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="36" selection-start="472" selection-end="472" vertical-scroll-proportion="0.11673152">
@@ -1129,13 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="55" selection-start="105" selection-end="105" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tickets/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="21" selection-start="69" selection-end="69" vertical-scroll-proportion="-0.625">
@@ -1143,9 +1155,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="295" selection-end="295" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="769" selection-end="769" vertical-scroll-proportion="0.48151752">
+        <state line="14" column="91" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="338" selection-end="338" vertical-scroll-proportion="0.20428015">
           <folding />
         </state>
       </provider>
