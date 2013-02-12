@@ -15,11 +15,11 @@ class ProjectsController < ApplicationController
   end
 
   def create
-     @project = Project.new(params[:project])
+    @project = Project.new(params[:project])
     if @project.save
-       redirect_to @project, :notice  => "Project has been created."
+      redirect_to @project, :notice  => "Project has been created."
     else
-       flash[:alert] = "Project can not be created."
+      flash[:alert] = "Project can not be created."
       render :action => 'new'
     end
   end
@@ -29,12 +29,11 @@ class ProjectsController < ApplicationController
 
   def update
     if @project.update_attributes(params[:project])
-    redirect_to @project, :notice => "Project has been updated."
+      redirect_to @project, :notice => "Project has been updated."
     else
       flash[:alert] = "Project has not been updated."
       render :action => "edit"
     end
-
   end
 
   def destroy
